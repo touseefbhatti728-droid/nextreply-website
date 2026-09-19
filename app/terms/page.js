@@ -1,0 +1,19 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
+export const metadata = {
+  title: "NextReply \u2014 Terms Of Service",
+  description: "The terms that apply when you use NextReply's AI WhatsApp receptionist service.",
+};
+
+const CONTENT = "<section class=\"page-hero\"><div class=\"dotbg\"></div><div class=\"glow-orb o1\"></div><div class=\"wrap page-hero-in\"><span class=\"chip\">Legal</span><h1>Terms Of Service</h1><p>The terms that apply when you use <span class=\"bw\">Next<span class=\"r\">Reply</span></span>. Please read them carefully.</p></div></section>\n<section class=\"legal\"><div class=\"wrap legal-wrap\">\n<p class=\"legal-updated\">Last updated: January 2026</p>\n<p>These terms are an agreement between you and <span class=\"bw\">Next<span class=\"r\">Reply</span></span>. By creating an account or using the service, you agree to them. If you do not agree, please do not use <span class=\"bw\">Next<span class=\"r\">Reply</span></span>.</p>\n<h2>The Service</h2>\n<p>NextReply provides an AI receptionist that replies to messages and books appointments over WhatsApp, together with a dashboard to manage bookings. We may add, change or remove features over time to improve the service.</p>\n<h2>Your Account</h2>\n<p>You are responsible for your account and for keeping your login details safe. You must give accurate information and use the service only for lawful business purposes.</p>\n<h2>Acceptable Use</h2>\n<p>You agree not to use <span class=\"bw\">Next<span class=\"r\">Reply</span></span> to send spam, to break the law, to infringe others' rights, or to abuse the WhatsApp platform. You must follow WhatsApp's own policies when using your number with <span class=\"bw\">Next<span class=\"r\">Reply</span></span>.</p>\n<ul>\n<li>Do not use the service to send unsolicited bulk messages.</li>\n<li>Do not attempt to disrupt, reverse engineer or misuse the service.</li>\n<li>Do not use the service for any unlawful or harmful activity.</li>\n</ul>\n<h2>Plans And Payment</h2>\n<p>NextReply is offered on monthly plans. Plan limits, such as the number of bookings, apply as shown on the pricing page. Online payments are being added, and until then your plan is arranged with you directly. You can change or cancel your plan as described in your dashboard.</p>\n<h2>Your Content</h2>\n<p>You keep ownership of your business information and your customer data. You grant us permission to use it only to provide the service to you.</p>\n<h2>Availability</h2>\n<p>We work to keep <span class=\"bw\">Next<span class=\"r\">Reply</span></span> running reliably, but we cannot promise it will always be available or error free. The service depends on third parties such as WhatsApp and Google, which are outside our control.</p>\n<h2>Limitation Of Liability</h2>\n<p>To the extent allowed by law, <span class=\"bw\">Next<span class=\"r\">Reply</span></span> is provided \"as is\". We are not liable for indirect or consequential losses, or for lost bookings or revenue arising from use of the service.</p>\n<h2>Termination</h2>\n<p>You may stop using <span class=\"bw\">Next<span class=\"r\">Reply</span></span> at any time. We may suspend or end an account that breaks these terms or the acceptable use rules.</p>\n<h2>Changes To These Terms</h2>\n<p>We may update these terms from time to time. We will post the new version here with an updated date, and continued use means you accept the changes.</p>\n<h2>Contact</h2>\n<p>Questions about these terms? Email us at <a href=\"mailto:hello@nextreply.io\" style=\"color:var(--violet-dark);font-weight:600\">hello@nextreply.io</a>.</p>\n</div></section>";
+
+export default function Page() {
+  return (
+    <>
+      <Header />
+      <main dangerouslySetInnerHTML={{ __html: CONTENT }} />
+      <Footer />
+    </>
+  );
+}
