@@ -24,6 +24,14 @@ export default function Footer() {
               <Link href="/#faq">FAQ</Link>
             </div>
             <div className="foot-col">
+              <h4>Industries</h4>
+              <Link href="/industries/salons-spas">Salons &amp; Spas</Link>
+              <Link href="/industries/clinics">Clinics &amp; Doctors</Link>
+              <Link href="/industries/dentists">Dentists</Link>
+              <Link href="/industries/restaurants">Restaurants</Link>
+              <Link href="/industries">All Industries</Link>
+            </div>
+            <div className="foot-col">
               <h4>Account</h4>
               <a href="https://whatsapp-agent-dashboard-wine.vercel.app/signup">
                 Start Free
@@ -37,9 +45,6 @@ export default function Footer() {
               <h4>Legal</h4>
               <Link href="/privacy">Privacy Policy</Link>
               <Link href="/terms">Terms Of Service</Link>
-            </div>
-            <div className="foot-col">
-              <h4>Contact</h4>
               <a href="mailto:hello@nextreply.io">hello@nextreply.io</a>
             </div>
           </div>
