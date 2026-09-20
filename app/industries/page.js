@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Industries | AI WhatsApp Chatbot For Every Business | NextReply",
   description:
-    "See how NextReply's AI WhatsApp chatbot works for your industry, from salons and clinics to dentists, restaurants and more. Automate replies and bookings 24/7.",
+    "See how NextReply's AI WhatsApp chatbot works for your industry, from salons and clinics to restaurants, real estate, hotels and more. Automate replies and bookings 24/7.",
 };
 
 const ICON = (
@@ -16,14 +16,21 @@ const LIVE = [
   { name: "Clinics & Doctors", slug: "clinics", desc: "Patient intake & booking" },
   { name: "Dentists", slug: "dentists", desc: "Emergencies & appointments" },
   { name: "Restaurants", slug: "restaurants", desc: "Reservations & menus" },
+  { name: "Real Estate", slug: "real-estate", desc: "Leads & viewings" },
+  { name: "Gyms & Fitness", slug: "gyms", desc: "Classes & trials" },
+  { name: "Aesthetic Clinics", slug: "aesthetic-clinics", desc: "Consultations & treatments" },
+  { name: "Veterinary Clinics", slug: "veterinary", desc: "Pet appointments & triage" },
+  { name: "Home Services", slug: "home-services", desc: "Quotes & technician visits" },
+  { name: "Auto Repair", slug: "auto-repair", desc: "Estimates & bookings" },
+  { name: "Hotels & B&Bs", slug: "hotels", desc: "Rooms & concierge" },
+  { name: "Law Firms", slug: "law-firms", desc: "Client intake & consults" },
+  { name: "Accounting & Tax", slug: "accounting", desc: "Deadlines & consults" },
+  { name: "Photographers", slug: "photographers", desc: "Packages & shoot dates" },
 ];
 
 const SOON = [
-  "Gyms & Fitness Studios", "Real Estate", "Aesthetic & Cosmetic Clinics",
-  "Chiropractors & Physiotherapy", "Veterinary Clinics", "Hotels & B&Bs",
-  "Travel Agencies", "Law Firms & Legal Consultants", "Accounting & Tax Firms",
-  "Home Services", "Auto Repair Shops", "Photographers & Videographers",
-  "Event Planners", "Tutors & Coaches", "Retail & Boutiques", "Wellness Centers",
+  "Chiropractors & Physiotherapy", "Travel Agencies", "Event Planners",
+  "Tutors & Coaches", "Retail & Boutiques", "Wellness Centers",
 ];
 
 export default function IndustriesHub() {
@@ -45,7 +52,7 @@ export default function IndustriesHub() {
 
       <section>
         <div className="wrap">
-          <div className="sh left"><h2>Popular Industries</h2><p style={{ margin: "12px 0 0" }}>Deep-dive pages with real conversations, use cases and answers for each field.</p></div>
+          <div className="sh left"><h2>Explore By Industry</h2><p style={{ margin: "12px 0 0" }}>Deep-dive pages with real conversations, use cases and answers for each field.</p></div>
           <div className="hub-grid">
             {LIVE.map((i) => (
               <a key={i.slug} href={`/industries/${i.slug}`} className="hub-card">
