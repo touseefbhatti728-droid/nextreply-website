@@ -632,6 +632,7 @@
 .cta .btn{position:relative;z-index:1}
 
 @media(max-width:900px){.cta{padding:52px 24px}}
+
 /* ==================================================================
    MOBILE FIX — append to END of app/globals.css
    Fixes: page sliding left-right on mobile + header on small screens
