@@ -673,3 +673,71 @@ img, svg { max-width: 100%; }
   .cta-wide, .cta-wrap { padding-left: 14px; padding-right: 14px; }
   .cta { padding: 48px 22px; }
 }
+/* ==================================================================
+   POLISH LAYER — append to the END of app/globals.css
+   Refines spacing, edges, hover, animations. Your colours/design kept.
+   Safe: only enhances existing elements. Remove this block to revert.
+   ================================================================== */
+
+:root{
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);   /* smooth, premium easing */
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* 1) Global smooth easing on interactive elements */
+a, button, .btn, .type, .fc, .plan, .hub-card, .usp-card, .pain, .tst, .hstep, .stp, .uc, .reason, .faq-item, .fq, .mm-row {
+  transition: transform .45s var(--ease), box-shadow .45s var(--ease), border-color .3s var(--ease), background .3s var(--ease) !important;
+}
+
+/* 2) A touch more breathing room between sections */
+section{ padding-top: 92px; padding-bottom: 92px; }
+@media (max-width: 920px){ section{ padding-top: 64px; padding-bottom: 64px; } }
+
+/* 3) Softer, more modern edges */
+.btn{ border-radius: 14px; }
+.btn-lg{ border-radius: 16px; }
+.type, .fc, .usp-card, .pain, .hstep, .stp, .uc, .reason, .hub-card, .tst, .ind-tst{ border-radius: 20px; }
+.plan{ border-radius: 28px; }
+.mock, .fcard, .dashcard, .demo-card, .illus .frame{ border-radius: 26px; }
+
+/* 4) Refined card hover — gentle lift + soft violet glow (your colours) */
+.type:hover, .fc:hover, .usp-card:hover, .uc:hover, .reason:hover, .hub-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 4px 10px rgba(20,18,31,.05), 0 28px 56px -26px rgba(124,58,237,.45);
+  border-color: var(--lavender);
+}
+.pain:hover, .tst:hover, .ind-tst:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(20,18,31,.05), 0 26px 52px -26px rgba(124,58,237,.4);
+}
+
+/* 5) Buttons — premium press + lift */
+.btn-primary:hover, .btn-light:hover{ transform: translateY(-2px); box-shadow: 0 14px 34px -10px rgba(124,58,237,.6); }
+.btn:active{ transform: translateY(0) scale(.985); }
+
+/* 6) Icon tiles get a subtle tint depth */
+.ti, .ui, .fi, .uci, .hic, .p-icon.a{ transition: transform .45s var(--ease); }
+.type:hover .ti, .fc:hover .fi, .usp-card:hover .ui, .uc:hover .uci, .hub-card:hover .hic{ transform: scale(1.08) rotate(-3deg); }
+
+/* 7) Smooth scroll-reveal for everything (fade + rise) */
+@keyframes riseIn{ from{ opacity:0; transform: translateY(26px); } to{ opacity:1; transform:none; } }
+.reveal{ opacity: 0; }
+.reveal.in{ animation: riseIn .7s var(--ease-out) both; }
+
+/* 8) Section heads a little more spacious */
+.sec-head{ margin-bottom: 56px; }
+.sec-head p{ line-height: 1.6; }
+
+/* 9) Links — smooth underline grow */
+.nav-links a{ position: relative; }
+.nav-links a::after{ content:""; position:absolute; left:0; right:100%; bottom:-4px; height:2px; border-radius:2px; background: var(--grad); transition: right .35s var(--ease); }
+.nav-links a:hover::after{ right:0; }
+
+/* 10) Cards get a hairline top accent on hover (subtle colour addition) */
+.usp-card, .fc, .type{ position: relative; overflow: hidden; }
+.usp-card::after, .fc::after, .type::after{
+  content:""; position:absolute; top:0; left:0; right:0; height:2.5px;
+  background: var(--grad); transform: scaleX(0); transform-origin: left;
+  transition: transform .5s var(--ease);
+}
+.usp-card:hover::after, .fc:hover::after, .type:hover::after{ transform: scaleX(1); }
