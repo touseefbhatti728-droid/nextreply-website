@@ -86,7 +86,7 @@ export default function IndustriesHub() {
             <div className="glow g1" />
             <h2>Do Not See Your Industry?</h2>
             <p>NextReply works for any business that talks to customers on WhatsApp. Start free and teach it about yours in minutes.</p>
-            <a href="https://whatsapp-agent-dashboard-wine.vercel.app/signup" className="btn btn-primary btn-lg">Start Free</a>
+            <a href="https://app.nextreply.io/signup" className="btn btn-primary btn-lg">Start Free</a>
           </div>
         </div>
       </section>

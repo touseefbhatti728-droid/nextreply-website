@@ -33,10 +33,10 @@ export default function Footer() {
             </div>
             <div className="foot-col">
               <h4>Account</h4>
-              <a href="https://whatsapp-agent-dashboard-wine.vercel.app/signup">
+              <a href="https://app.nextreply.io/signup">
                 Start Free
               </a>
-              <a href="https://whatsapp-agent-dashboard-wine.vercel.app/login">
+              <a href="https://app.nextreply.io/login">
                 Sign In
               </a>
               <Link href="/connect-whatsapp">Connect WhatsApp</Link>
