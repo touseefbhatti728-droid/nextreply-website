@@ -741,3 +741,8 @@ section{ padding-top: 92px; padding-bottom: 92px; }
   transition: transform .5s var(--ease);
 }
 .usp-card:hover::after, .fc:hover::after, .type:hover::after{ transform: scaleX(1); }
+
+/* New homepage sections: responsive 4-col grid */
+.grid4{ grid-template-columns: repeat(4, 1fr) !important; }
+@media (max-width: 900px){ .grid4{ grid-template-columns: 1fr 1fr !important; } }
+@media (max-width: 560px){ .grid4{ grid-template-columns: 1fr !important; } }
