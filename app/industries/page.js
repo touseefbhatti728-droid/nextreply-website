@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Industries | AI WhatsApp Chatbot For Every Business | NextReply",
+  title: "WhatsApp Chatbot for UAE Businesses — 14 Industry Use Cases | NextReply",
   description:
-    "See how NextReply's AI WhatsApp chatbot works for your industry, from salons and clinics to restaurants, real estate, hotels and more. Automate replies and bookings 24/7.",
+    "Salons, property agents, restaurants, gyms and home services across Dubai and Abu Dhabi use one AI to answer WhatsApp and book customers. Find your setup.",
 };
 
 const ICON = (

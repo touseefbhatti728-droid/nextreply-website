@@ -1,9 +1,9 @@
 import HotelsContent from "@/components/HotelsContent";
 
 export const metadata = {
-  title: "WhatsApp Concierge Bot For Hotels & B&Bs | NextReply",
+  title: "WhatsApp Concierge Bot for UAE Hotels & B&Bs | NextReply",
   description:
-    "NextReply is an AI WhatsApp concierge for hotels and B&Bs. It answers room availability, handles booking enquiries, and gives guests instant help 24/7.",
+    "Answer room availability and guest questions on WhatsApp in Arabic and English, 24/7. NextReply handles booking enquiries and gives instant concierge help.",
 };
 
 export default function Page() {

@@ -1,9 +1,9 @@
 import VeterinaryContent from "@/components/VeterinaryContent";
 
 export const metadata = {
-  title: "AI WhatsApp Receptionist For Veterinary Clinics | NextReply",
+  title: "WhatsApp Chatbot for Vet Clinics in the UAE | NextReply",
   description:
-    "NextReply is an AI WhatsApp receptionist for vet clinics. It handles pet symptom messages, triages urgent cases, and books appointments 24/7.",
+    "Worried pet owners message at all hours. NextReply answers in Arabic and English, flags urgent cases, and books vet appointments into your calendar.",
 };
 
 export default function Page() {

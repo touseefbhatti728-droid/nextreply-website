@@ -1,9 +1,9 @@
 import SalonsContent from "@/components/SalonsContent";
 
 export const metadata = {
-  title: "WhatsApp AI Receptionist For Salons & Spas | NextReply",
+  title: "WhatsApp Booking Bot for Salons in Dubai & UAE | NextReply",
   description:
-    "NextReply is the AI WhatsApp chatbot for salons and spas. It reads style photos, answers voice notes, handles price questions, and books clients into your calendar 24/7.",
+    "A client sends a style photo or an Arabic voice note at 11 PM — NextReply replies in seconds and books the chair. No setup fee, live today. Start free.",
 };
 
 export default function Page() {

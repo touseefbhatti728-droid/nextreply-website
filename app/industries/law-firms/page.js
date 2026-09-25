@@ -1,9 +1,9 @@
 import LawFirmsContent from "@/components/LawFirmsContent";
 
 export const metadata = {
-  title: "AI WhatsApp Assistant For Law Firm Client Intake | NextReply",
+  title: "WhatsApp Chatbot for Law Firms in the UAE | NextReply",
   description:
-    "NextReply is an AI WhatsApp assistant for law firms. It handles confidential client intake, answers common questions, and books consultations 24/7.",
+    "Capture client enquiries and book consultations on WhatsApp in Arabic and English, 24/7 — confidential intake handled while your team is in court.",
 };
 
 export default function Page() {

@@ -1,9 +1,9 @@
 import GymsContent from "@/components/GymsContent";
 
 export const metadata = {
-  title: "WhatsApp Bot For Gym Class Bookings & Trials | NextReply",
+  title: "WhatsApp Chatbot for Gyms & Fitness Studios in the UAE | NextReply",
   description:
-    "NextReply is an AI WhatsApp bot for gyms and fitness studios. It books classes and trials, answers membership questions, and fills your schedule 24/7.",
+    "Book trial classes and PT sessions and answer membership questions on WhatsApp in Arabic and English, day and night. No setup fee — start free.",
 };
 
 export default function Page() {

@@ -1,9 +1,9 @@
 import PhotographersContent from "@/components/PhotographersContent";
 
 export const metadata = {
-  title: "WhatsApp Booking Bot For Photographers & Videographers | NextReply",
+  title: "WhatsApp Booking Bot for Photographers in the UAE | NextReply",
   description:
-    "NextReply is an AI WhatsApp assistant for photographers. It answers package questions, checks date availability, and books shoots into your calendar 24/7.",
+    "Check date availability and explain packages on WhatsApp in Arabic and English. NextReply books shoots into your calendar 24/7 — start free.",
 };
 
 export default function Page() {

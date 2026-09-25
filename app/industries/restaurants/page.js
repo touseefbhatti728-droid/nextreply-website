@@ -1,9 +1,9 @@
 import RestaurantsContent from "@/components/RestaurantsContent";
 
 export const metadata = {
-  title: "WhatsApp Ordering & Reservation Bot For Restaurants | NextReply",
+  title: "WhatsApp Reservation Bot for UAE Restaurants | NextReply",
   description:
-    "NextReply is an AI WhatsApp bot for restaurants. It takes table reservations, answers menu and allergy questions, and handles order and timing enquiries 24/7.",
+    "Take table reservations and answer menu and Iftar questions on WhatsApp, in Arabic and English, 24/7 — straight into your calendar. Start free.",
 };
 
 export default function Page() {
