@@ -1,5 +1,3 @@
-import { MetadataRoute } from "next";
-
 const BASE = "https://nextreply.io";
 
 const routes = [
@@ -12,7 +10,7 @@ const routes = [
   "/industries/accounting", "/industries/photographers",
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
   const now = new Date();
   return routes.map((path) => ({
     url: BASE + path,
