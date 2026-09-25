@@ -20,12 +20,12 @@ export default function RealEstateContent() {
     <div>
       <span className="chip"><span className="pulse"></span>For Real Estate</span>
       <h1>The AI WhatsApp Assistant Built For <span className="grad-text">Real Estate Agents</span></h1>
-      <p className="sub">You are showing one property while three buyers message about others. NextReply answers every enquiry on WhatsApp, qualifies the lead, shares listing details, and books viewings into your calendar, even while you are out on a showing.</p>
+      <p className="sub">Built for Dubai and the UAE. You are showing one property while three buyers message about others. NextReply answers every enquiry on WhatsApp, qualifies the lead, shares listing details, and books viewings into your calendar, even while you are out on a showing.</p>
       <div className="hero-cta"><a href="https://app.nextreply.io/signup" className="btn btn-primary btn-lg">Start Free</a><a href="/connect-whatsapp" className="btn btn-light btn-lg">See How It Works</a></div>
       <div className="trust-badges">
         <span className="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No Setup Fees</span>
         <span className="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Cancel Anytime</span>
-        <span className="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Uses Your Own Number</span>
+        <span className="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Uses Your Own Number</span><span className="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Arabic + English Support</span>
       </div>
     </div>
     <div className="mock">
@@ -51,7 +51,7 @@ export default function RealEstateContent() {
   <div className="wrap">
     <div className="stats-grid">
       <div className="stat reveal"><b>2B+</b><span>WhatsApp Users Worldwide</span></div>
-      <div className="stat reveal"><b>98%</b><span>Message Open Rate</span></div>
+      <div className="stat reveal"><b>AR + EN</b><span>Arabic &amp; English</span></div>
       <div className="stat reveal"><b>~5 sec</b><span>Average Reply Time</span></div>
       <div className="stat reveal"><b>24/7</b><span>Automated Replies</span></div>
     </div>

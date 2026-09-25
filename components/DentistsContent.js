@@ -20,7 +20,7 @@ export default function DentistsContent() {
     <div>
       <span className="chip"><span className="pulse"></span>For Dentists</span>
       <h1>The AI WhatsApp Chatbot Built For <span className="grad-text">Dental Practices</span></h1>
-      <p className="sub">Your chairs are booked and reception is stretched thin. NextReply answers every patient on WhatsApp, handles insurance and emergency questions, and books dental appointments into your calendar, even after the practice has closed.</p>
+      <p className="sub">Built for Dubai and the UAE. Your chairs are booked and reception is stretched thin. NextReply answers every patient on WhatsApp, handles insurance and emergency questions, and books dental appointments into your calendar, even after the practice has closed.</p>
       <div className="hero-cta"><a href="https://app.nextreply.io/signup" className="btn btn-primary btn-lg">Start Free</a><a href="/connect-whatsapp" className="btn btn-light btn-lg">See How It Works</a></div>
       <div className="trust-badges">
         <span className="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No Setup Fees</span>
@@ -51,7 +51,7 @@ export default function DentistsContent() {
   <div className="wrap">
     <div className="stats-grid">
       <div className="stat reveal"><b>2B+</b><span>WhatsApp Users Worldwide</span></div>
-      <div className="stat reveal"><b>98%</b><span>Message Open Rate</span></div>
+      <div className="stat reveal"><b>AR + EN</b><span>Arabic &amp; English</span></div>
       <div className="stat reveal"><b>~5 sec</b><span>Average Reply Time</span></div>
       <div className="stat reveal"><b>24/7</b><span>Automated Replies</span></div>
     </div>
