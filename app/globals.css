@@ -746,3 +746,15 @@ section{ padding-top: 92px; padding-bottom: 92px; }
 .grid4{ grid-template-columns: repeat(4, 1fr) !important; }
 @media (max-width: 900px){ .grid4{ grid-template-columns: 1fr 1fr !important; } }
 @media (max-width: 560px){ .grid4{ grid-template-columns: 1fr !important; } }
+
+
+/* == PRICING CARDS UI POLISH == */
+.price-grid{ align-items:stretch; }
+.plan{ display:flex; flex-direction:column; overflow:visible; }
+.plan .pd{ min-height:42px; }
+.plan .feat{ flex:1 1 auto; }
+.plan > .btn{ margin-top:auto; }
+.plan .amt{ white-space:nowrap; font-size:40px; line-height:1.1; letter-spacing:-1px; }
+.plan .amt span{ font-size:16px; font-weight:600; letter-spacing:0; margin-left:3px; }
+@media (max-width:640px){ .plan .amt{ font-size:34px; } }
+/* == END PRICING CARDS UI POLISH == */
